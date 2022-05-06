@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+body {
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background: #e5e5e5;
+}
+.toDoList {
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 66px 81px;
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.list {
+  padding: 0;
+}
+ul > li {
+  list-style: none;
+  border-bottom: 1px solid #dedede;
+  padding: 15px;
+  margin: 0 auto;
+  display: block;
+}
+.inputToDo > input {
+  display: block;
+  width: 750px;
+  height: 75px;
+  box-sizing: border-box;
+  border: 1px solid #dbdbdb;
+  border-radius: 10px;
+  padding: 13px 23px 43px;
+}
+button:hover {
+  cursor: pointer;
+}
+.checkbox:hover {
+  cursor: pointer;
+}
+.checkbox {
+  border-radius: 20px;
+  width: 19px;
+  height: 19px;
+  background: #ffffff;
+  margin-right: 14px;
+  border: 1px solid #6d6d6d;
+}
+.btn {
+  padding: 13px 28px;
+  margin-top: 21px;
+  background: Green;
+  border-radius: 6px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  opacity: 0.4;
+  text-align: center;
+  color: #ffffff;
+}
+.remove {
+  float: right;
+  background-image: url(/src/images/remove.svg);
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+  border: none;
+  background-color: transparent;
+}
+.editter {
+  float: right;
+  background-image: url(/src/images/edit.svg);
+  width: 19px;
+  height: 19px;
+  border: none;
+  margin-right: 10px;
+  background-color: transparent;
+}
+.toDoListText {
+  font-size: 16px;
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  width: 80%;
+}
+.checkbox:hover {
+  background-image: url(/src/images/check.svg);
+  width: 19px;
+  height: 19px;
+  background-size: cover;
+  border: none;
+  margin-right: 14px;
+}
+.toDoDone > li {
+  text-decoration: line-through;
+}
+
+.toDoListTextChanging {
+  font-size: 16px;
+  padding: 9px 30px;
+  background-color: #ffffff;
+  color: black;
+  border: 1px solid #40c245;
+  border-radius: 10px;
+  width: 80%;
+}
+.saveButton {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+
+  /* identical to box height */
+  text-align: center;
+
+  color: #1c5ad2;
+  border: none;
+  background-color: transparent;
+  margin-left: 13px;
+}
